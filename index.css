@@ -1,0 +1,291 @@
+                                                    /* #sectModel {
+        padding: 2em 0 4em 0;
+        background-color: rgba(14, 13, 13, 0.952);
+    }
+     */
+                                                    
+                                                    #modelText {
+                                                        width: 30em;
+                                                    }
+                                                    
+                                                    #modelText h1 {
+                                                        margin: 0;
+                                                        font-size: 3rem;
+                                                        font-weight: 700;
+                                                        text-transform: uppercase;
+                                                        color: #363958;
+                                                    }
+                                                    
+                                                    #modelText span {
+                                                        display: block;
+                                                        text-transform: uppercase;
+                                                        color: #fabe4c;
+                                                    }
+                                                    
+                                                    #modelText p {
+                                                        width: 75%;
+                                                        margin: .5em 0 1.25em 0;
+                                                    }
+                                                    
+                                                    #modelImg {
+                                                        width: 25em;
+                                                    }
+                                                    
+                                                    .div {
+                                                        background-color: rgba(14, 13, 13, 0.952);
+                                                    }
+                                                    
+                                                    #modelImg {
+                                                        margin-top: -434px;
+                                                        width: 60%;
+                                                        /* margin-left: 40em; */
+                                                        min-height: 100vh;
+                                                    }
+                                                    
+                                                    img {
+                                                        margin-left: 150px;
+                                                    }
+                                                    
+                                                    .ft2hre {
+                                                        background: linear-gradient(0deg, #181818 0, #282828 100%);
+                                                        display: block;
+                                                        height: 72px;
+                                                        overflow: hidden;
+                                                        padding: 0;
+                                                        position: relative;
+                                                    }
+                                                    
+                                                    .gn7hDb {
+                                                        align-items: center;
+                                                        display: flex;
+                                                        height: 100%;
+                                                        justify-content: space-between;
+                                                        margin-right: 13em;
+                                                    }
+                                                    
+                                                    @media only screen and (max-width: 1023px) {
+                                                        .Skn3Ae {
+                                                            animation: first-left-translation 10s ease-in-out both infinite;
+                                                        }
+                                                    }
+                                                    
+                                                    @media only screen and (max-width: 1023px) {
+                                                        .Dp1W7e {
+                                                            animation: second-left-translation 10s ease-in-out both infinite;
+                                                        }
+                                                    }
+                                                    
+                                                    @media only screen and (max-width: 1023px) {
+                                                        .gHjA2d {
+                                                            animation: third-left-translation 10s ease-in-out both infinite;
+                                                        }
+                                                    }
+                                                    
+                                                    li {
+                                                        border: 0;
+                                                        color: inherit;
+                                                        font: inherit;
+                                                        font-size: 100%;
+                                                        margin: 0;
+                                                        padding: 0;
+                                                        vertical-align: baseline;
+                                                    }
+                                                    
+                                                    .VvU18d {
+                                                        align-items: center;
+                                                        display: flex;
+                                                        flex-wrap: wrap;
+                                                        justify-content: center;
+                                                        margin: 0 auto 100px;
+                                                        max-width: 300px;
+                                                        text-align: center;
+                                                    }
+                                                    
+                                                    header {
+                                                        border: 0;
+                                                        color: inherit;
+                                                        font: inherit;
+                                                        font-size: 100%;
+                                                        margin: 0;
+                                                        padding: 0;
+                                                        vertical-align: baseline;
+                                                    }
+                                                    
+                                                    h2 {
+                                                        display: block;
+                                                        font-size: 1.5em;
+                                                        margin-block-start: 0.83em;
+                                                        margin-block-end: 0.83em;
+                                                        margin-inline-start: 0px;
+                                                        margin-inline-end: 0px;
+                                                        font-weight: bold;
+                                                    }
+                                                    
+                                                    .TGt0Jc {
+                                                        font-size: 16px;
+                                                        line-height: 28px;
+                                                    }
+                                                    
+                                                    .slider-wrapper {
+                                                        position: relative;
+                                                        height: 250px;
+                                                        width: 100%;
+                                                        margin: auto;
+                                                        display: grid;
+                                                        place-items: center;
+                                                        overflow: hidden;
+                                                        margin-top: -106em;
+                                                        margin-left: -5em;
+                                                    }
+                                                    
+                                                    .slider-track {
+                                                        display: flex;
+                                                        /* width: 100%; */
+                                                        animation: slidescroll 5s linear infinite;
+                                                    }
+                                                    
+                                                    .slider-track:hover {
+                                                        animation-play-state: paused;
+                                                    }
+                                                    
+                                                    @keyframes slidescroll {
+                                                        0% {
+                                                            transform: translate(0);
+                                                        }
+                                                        100% {
+                                                            transform: translate(calc(-350px*1))
+                                                        }
+                                                    }
+                                                    
+                                                    .slide {
+                                                        width: 450px;
+                                                        height: 240px;
+                                                        display: flex;
+                                                        /* align-items: center; */
+                                                        padding: 15px;
+                                                        /* overflow: hidden; */
+                                                        /* perspective: 100px; */
+                                                        cursor: pointer;
+                                                    }
+                                                    
+                                                    .slide img {
+                                                        max-width: 100%;
+                                                        min-height: 100%;
+                                                        object-fit: cover;
+                                                        border-radius: 20px;
+                                                    }
+                                                    
+                                                    .slider-wrap {
+                                                        position: relative;
+                                                        height: 250px;
+                                                        width: 100%;
+                                                        margin: auto;
+                                                        display: grid;
+                                                        place-items: center;
+                                                        overflow: hidden;
+                                                        margin-top: -1em;
+                                                        margin-left: -5em;
+                                                    }
+                                                    
+                                                    .sliderrr {
+                                                        display: flex;
+                                                        /* width: 100%; */
+                                                        animation: slide 5s linear infinite;
+                                                    }
+                                                    
+                                                    .sliderrr:hover {
+                                                        animation-play-state: paused;
+                                                    }
+                                                    
+                                                    @keyframes slide {
+                                                        0% {
+                                                            transform: translate(0);
+                                                        }
+                                                        100% {
+                                                            transform: translate(calc(-350px*1))
+                                                        }
+                                                    }
+                                                    
+                                                    .slidess {
+                                                        width: 450px;
+                                                        height: 240px;
+                                                        display: flex;
+                                                        /* align-items: center; */
+                                                        padding: 15px;
+                                                        /* overflow: hidden; */
+                                                        /* perspective: 100px; */
+                                                        cursor: pointer;
+                                                    }
+                                                    
+                                                    .slidess img {
+                                                        max-width: 100%;
+                                                        min-height: 100%;
+                                                        object-fit: cover;
+                                                        border-radius: 20px;
+                                                    }
+                                                    
+                                                    #tablet {
+                                                        animation: tablet 5s infinite;
+                                                    }
+                                                    
+                                                    #laptop {
+                                                        animation: laptop 5s infinite;
+                                                    }
+                                                    
+                                                    #phone {
+                                                        animation: phone 5s infinite;
+                                                    }
+                                                    
+                                                    @keyframes laptop {
+                                                        0% {
+                                                            opacity: 0;
+                                                        }
+                                                        25% {
+                                                            opacity: 1;
+                                                        }
+                                                        50% {
+                                                            opacity: 0;
+                                                        }
+                                                        100% {
+                                                            opacity: 0;
+                                                        }
+                                                    }
+                                                    
+                                                    @keyframes tablet {
+                                                        0% {
+                                                            opacity: 0;
+                                                        }
+                                                        50% {
+                                                            opacity: 1;
+                                                        }
+                                                        100% {
+                                                            opacity: 0;
+                                                        }
+                                                    }
+                                                    
+                                                    @keyframes phone {
+                                                        0% {
+                                                            opacity: 0;
+                                                        }
+                                                        50% {
+                                                            opacity: 0;
+                                                        }
+                                                        100% {
+                                                            opacity: 1;
+                                                        }
+                                                    }
+                                                    
+                                                    .box {
+                                                        margin-left: 29%
+                                                    }
+                                                    
+                                                    .Qf {
+                                                        color: white;
+                                                        z-index: 2s;
+                                                        bottom: 0;
+                                                        font-size: 12px;
+                                                        left: 0;
+                                                        line-height: 20px;
+                                                        /* padding: 11px; */
+                                                        position: absolute;
+                                                    }
